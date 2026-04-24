@@ -20,7 +20,7 @@ This is a research-based comparative study and does not include a standalone sof
 - Intelligent Tutoring Systems
 
 ## Files
-- Paper.pdf → Final research paper
+- Final.docx → Research_Paper.docx
 - experiment_details.md → Experimental design and workflow
 
 ## Conclusion
