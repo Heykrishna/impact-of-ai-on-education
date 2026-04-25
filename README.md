@@ -19,6 +19,9 @@ This is a research-based comparative study and does not include a standalone sof
 - AI Learning Platforms (Khan Academy etc.)
 - Intelligent Tutoring Systems
 
+## Data Source
+The dataset used in this study is synthetically generated based on controlled observations of AI tool performance (response time, accuracy, etc.). It is designed to simulate realistic usage patterns for comparative analysis.
+
 ## Files
 - Research_Paper.docx → Final research paper  
 - ai_tools_comparison.csv → Experimental dataset  
