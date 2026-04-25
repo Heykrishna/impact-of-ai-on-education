@@ -22,6 +22,7 @@ This is a research-based comparative study and does not include a standalone sof
 ## Files
 - Final.docx → Research_Paper.docx
 - experiment_details.md → Experimental design and workflow
+- analysis.ipynb → Data analysis and visualization notebook
 
 ## Conclusion
 ChatGPT showed highest performance in flexibility and efficiency, while ITS and learning platforms contributed to structured learning.
