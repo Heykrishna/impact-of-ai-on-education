@@ -20,7 +20,7 @@ This is a research-based comparative study and does not include a standalone sof
 - Intelligent Tutoring Systems
 
 ## Files
-- Final.docx → Final research paper  
+- Research_Paper.docx → Final research paper  
 - ai_tools_comparison.csv → Experimental dataset  
 - analysis.ipynb → Data analysis and visualization notebook  
 
