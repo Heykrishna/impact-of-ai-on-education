@@ -13,6 +13,7 @@ This is a research-based comparative study and does not include a standalone sof
   - Accuracy
   - Engagement
   - Usability
+- The dataset used for analysis is available in CSV format and processed using Python (Jupyter Notebook).
 
 ## Tools Used
 - ChatGPT
