@@ -25,7 +25,7 @@ This is a research-based comparative study and does not include a standalone sof
 - analysis.ipynb → Data analysis and visualization notebook  
 
 ## Data Source
-The dataset used in this study is synthetically generated based on controlled observations of AI tool performance (response time, accuracy, etc.). It is designed to simulate realistic usage patterns for comparative analysis.
+Dataset collected from publicly available sources (e.g., Kaggle) and supplemented with controlled observations.
 
 ## Conclusion
 ChatGPT showed highest performance in flexibility and efficiency, while ITS and learning platforms contributed to structured learning.
