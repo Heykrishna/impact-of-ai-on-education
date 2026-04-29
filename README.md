@@ -40,9 +40,9 @@ This is a research-based comparative study supported by Python-based data analys
 - Intelligent Tutoring Systems
 
 ## Files
-- Research_Paper.docx → Final research paper  
-- ai_tools_comparison.csv → Experimental dataset  
-- analysis.ipynb → Data analysis and visualization notebook  
+- Report/Research_Paper.pdf → Final research paper
+- Dataset/ai_tools_comparison.csv → Experimental dataset
+- Source_Code/analysis.ipynb → Data analysis notebook
 
 ## Data Source
 Dataset sourced from Kaggle (Student Performance datasets) and supplemented with observational analysis of AI tool responses.
