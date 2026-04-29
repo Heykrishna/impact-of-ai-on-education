@@ -1,10 +1,30 @@
 # Impact of Artificial Intelligence on Education
 
+## Team Details
+- Krishna Raj (2210991816)
+- Member 2 (Roll No)
+- Member 3 (Roll No)
+- Member 4 (Roll No)
+
+## Project Type
+Research-Based Comparative Study
+
+## Current Status
+Completed and Submitted
+
+## Project Structure
+- Dataset/ → Dataset used for analysis
+- Source_Code/ → Python scripts and notebook
+- Report/ → Final research paper
+- PPT/ → Presentation
+- IPR_Proof/ → Submission proof
+- Screenshots/ → Output results
+
 ## Overview
 This repository contains the research work on the impact of AI tools such as ChatGPT, Intelligent Tutoring Systems, and AI learning platforms in education.
 
 ## Nature of Work
-This is a research-based comparative study and does not include a standalone software implementation.
+This is a research-based comparative study supported by Python-based data analysis and implementation using Jupyter Notebook.
 
 ## Methodology
 - Comparative analysis using publicly available datasets and observational evaluation.
