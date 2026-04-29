@@ -7,7 +7,7 @@ This repository contains the research work on the impact of AI tools such as Cha
 This is a research-based comparative study and does not include a standalone software implementation.
 
 ## Methodology
-- Controlled experimental comparison of AI tools
+- Comparative analysis using publicly available datasets and observational evaluation.
 - Evaluation based on:
   - Response time
   - Accuracy
@@ -26,7 +26,7 @@ This is a research-based comparative study and does not include a standalone sof
 - analysis.ipynb → Data analysis and visualization notebook  
 
 ## Data Source
-Dataset collected from publicly available sources (e.g., Kaggle) and supplemented with controlled observations.
+Dataset sourced from Kaggle (Student Performance datasets) and supplemented with observational analysis of AI tool responses.
 
 ## Conclusion
 ChatGPT showed highest performance in flexibility and efficiency, while ITS and learning platforms contributed to structured learning.
