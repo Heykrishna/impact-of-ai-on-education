@@ -14,11 +14,10 @@ Completed and Submitted
 
 ## Project Structure
 - Dataset/ → Dataset used for analysis
-- Source_Code/ → Python scripts and notebook
+- Source_Code/ → Python scripts and notebook + dataset 
 - Report/ → Final research paper
 - PPT/ → Presentation
 - IPR_Proof/ → Submission proof
-- Screenshots/ → Output results
 
 ## Overview
 This repository contains the research work on the impact of AI tools such as ChatGPT, Intelligent Tutoring Systems, and AI learning platforms in education.
