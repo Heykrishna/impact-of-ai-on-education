@@ -12,13 +12,6 @@ Research-Based Comparative Study
 ## Current Status
 Completed and Submitted
 
-## Project Structure
-- Dataset/ → Dataset used for analysis
-- Source_Code/ → Python scripts and notebook 
-- Report/ → Final research paper
-- PPT/ → Presentation
-- IPR_Proof/ → Submission proof
-
 ##  Overview  
 This project presents a **research-based analysis of how Artificial Intelligence is transforming education**, focusing on real-world impact rather than just tools or technologies.
 
@@ -65,7 +58,6 @@ Risk: Over-dependence may reduce critical thinking
 
 Result: Smarter and more efficient institutions  
 
-
 ## Methodology  
 
 This project uses a **dataset-driven comparative analysis** instead of theoretical assumptions.
@@ -93,7 +85,6 @@ This project uses a **dataset-driven comparative analysis** instead of theoretic
 Overall Impact:  
 AI shifts education from **passive learning → active learning**
 
-
 ##  Conclusion  
 
 Artificial Intelligence is not just a tool — it is a **transformative force in education**.
@@ -104,7 +95,6 @@ It:
 - Enables smarter institutional decisions  
 
 However, its success depends on **balanced integration with human teaching and ethical usage**.
-
 
 ##  Project Structure  
 
@@ -124,7 +114,6 @@ However, its success depends on **balanced integration with human teaching and e
 
 - Kaggle datasets (Student performance)  
 - Simulated AI interaction dataset  
-
 
 ## Final Note  
 
