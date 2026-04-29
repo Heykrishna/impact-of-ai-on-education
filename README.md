@@ -1,10 +1,10 @@
 # Impact of Artificial Intelligence on Education
 
 ## Team Details
-- Krishna Raj (2210991816)
-- Member 2 (Roll No)
-- Member 3 (Roll No)
-- Member 4 (Roll No)
+- Krishna Raj Mitra (2210991816)
+- Rishant Singh (2210992158)
+- Summit Singla (2210992420)
+- Ocean Kajal (2210992006)
 
 ## Project Type
 Research-Based Comparative Study
