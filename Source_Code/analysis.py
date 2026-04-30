@@ -64,6 +64,7 @@ plt.figure()
 summary["Efficiency_Score"].plot(kind="bar")
 plt.title("Overall Educational Efficiency Score")
 plt.ylabel("Score")
+<<<<<<< HEAD:analysis.py
 plt.xticks(rotation=0)
 plt.show()
 
@@ -72,3 +73,6 @@ if summary.loc["With_AI", "Efficiency_Score"] > summary.loc["Without_AI", "Effic
     print("\nAI significantly improves overall educational efficiency.")
 else:
     print("\nAI shows limited impact.")
+=======
+plt.show()
+>>>>>>> 7ee3f8e421e525020c727cebb7491560c9b81aaa:Source_Code/analysis.py
