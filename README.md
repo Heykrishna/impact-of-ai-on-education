@@ -23,11 +23,8 @@ It highlights how AI is changing:
 The study is supported by **dataset-driven evaluation and Python-based analysis**.
 
 ## Objective  
-The main goal of this project is to understand the **actual impact of AI on education systems**, including:
-
-- Improvement in **student learning outcomes**  
-- Increase in **teaching efficiency**  
-- Role of AI in **data-driven decision-making**  
+- The main goal of this project is to get a clear view on real impact of AI on education system which includes.
+- AI contributes in multiple ways: it enhances student learning outcomes; it increases the efficiency of teaching, and it helps in data-driven decision-making.
 
 ##  Key Impact Areas  
 
