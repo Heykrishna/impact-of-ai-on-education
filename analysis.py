@@ -2,54 +2,73 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load dataset
-df = pd.read_csv("ai_tools_comparison.csv")
+df = pd.read_csv("Dataset/ai_impact_dataset.csv")
 
-# Show basic info
-print("Dataset Loaded Successfully")
+print("Dataset Loaded Successfully\n")
 print(df.head())
 
-# ---- Analysis ----
+# Group by scenario
+summary = df.groupby("Scenario").mean()
 
-# Group by tool
-summary = df.groupby("Tool").mean()
-
-print("\nAverage Performance:")
+print("\n===== Average Impact Analysis =====")
 print(summary)
 
-# Normalize response time
-summary["Normalized_Time"] = (
-    summary["Response_Time"].max() - summary["Response_Time"]
+# Calculate improvements
+improvement = ((summary.loc["With_AI"] - summary.loc["Without_AI"]) / summary.loc["Without_AI"]) * 100
+
+print("\n===== Percentage Improvement =====")
+print(improvement)
+
+# Efficiency Score (custom metric)
+summary["Efficiency_Score"] = (
+    summary["Concept_Score"] * 0.25 +
+    summary["Completion_Rate"] * 0.25 +
+    summary["Retention"] * 0.2 +
+    summary["Engagement"] * 0.1 -
+    summary["Study_Time"] * 0.1 -
+    summary["Teacher_Time"] * 0.1
 )
 
-# Calculate overall score
-summary["Overall_Score"] = (
-    summary["Accuracy"] * 0.3 +
-    summary["Task_Completion"] * 0.25 +
-    summary["Engagement"] * 0.2 +
-    summary["Usability"] * 0.15 +
-    summary["Normalized_Time"] * 0.1
-)
+print("\n===== Efficiency Score =====")
+print(summary["Efficiency_Score"])
 
-print("\nOverall Scores:")
-print(summary["Overall_Score"])
 
-# Best tool
-best_tool = summary["Overall_Score"].idxmax()
-print(f"\nBest Performing Tool: {best_tool}")
-
-# ---- Visualization ----
-
-# Accuracy comparison
-summary["Accuracy"].plot(kind="bar", title="Accuracy Comparison")
-plt.ylabel("Accuracy (%)")
+# 1. Learning Improvement Graph
+plt.figure()
+summary[["Concept_Score", "Completion_Rate", "Retention"]].T.plot(kind="bar")
+plt.title("Learning Outcomes: Before vs After AI")
+plt.ylabel("Score (%)")
+plt.xlabel("Metrics")
+plt.xticks(rotation=0)
 plt.show()
 
-# Response time comparison
-summary["Response_Time"].plot(kind="bar", title="Response Time Comparison")
-plt.ylabel("Time (sec)")
+# 2. Time Reduction Graph
+plt.figure()
+summary[["Study_Time", "Teacher_Time"]].T.plot(kind="bar")
+plt.title("Time Reduction Due to AI")
+plt.ylabel("Time (minutes/hours)")
+plt.xlabel("Metrics")
+plt.xticks(rotation=0)
 plt.show()
 
-# Overall score comparison
-summary["Overall_Score"].plot(kind="bar", title="Overall Performance Score")
+# 3. Engagement Improvement
+plt.figure()
+summary["Engagement"].plot(kind="bar")
+plt.title("Student Engagement Comparison")
+plt.ylabel("Engagement Score (1–5)")
+plt.xticks(rotation=0)
+plt.show()
+
+# 4. Efficiency Score Comparison
+plt.figure()
+summary["Efficiency_Score"].plot(kind="bar")
+plt.title("Overall Educational Efficiency Score")
 plt.ylabel("Score")
+plt.xticks(rotation=0)
 plt.show()
+
+
+if summary.loc["With_AI", "Efficiency_Score"] > summary.loc["Without_AI", "Efficiency_Score"]:
+    print("\nAI significantly improves overall educational efficiency.")
+else:
+    print("\nAI shows limited impact.")
