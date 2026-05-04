@@ -24,8 +24,6 @@ else:
 print(df.head())
 
 
-# ----------- DATA PROCESSING -----------
-
 # Ensure only numeric columns are used for calculations
 numeric_cols = df.select_dtypes(include='number').columns
 
@@ -47,7 +45,6 @@ print("\n===== Percentage Improvement =====")
 print(improvement)
 
 
-# ----------- EFFICIENCY SCORE -----------
 
 summary["Efficiency_Score"] = (
     summary["Concept_Score"] * 0.25 +
@@ -62,7 +59,6 @@ print("\n===== Efficiency Score =====")
 print(summary["Efficiency_Score"])
 
 
-# ----------- VISUALIZATIONS -----------
 
 # 1. Learning Outcomes
 plt.figure()
