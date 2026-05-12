@@ -10,7 +10,7 @@
 Research-Based Comparative Study
 
 ## Current Status
-Completed and Submitted
+Completed and Published
 
 ##  Overview  
 This project presents a **research-based analysis of how Artificial Intelligence is transforming education**, focusing on real-world impact rather than just tools or technologies.
